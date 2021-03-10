@@ -1,0 +1,239 @@
+<html><head><meta charset="UTF-8"><title>CE2</title>
+
+<style>
+    .body{ background-image:url('images/bod.jpg');
+        background-size:cover;
+        background-attachment: fixed;
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    } 
+    .header{
+        background-color: aliceblue;
+       
+        
+       
+        padding: 2px;
+        padding-bottom: 4px;
+        
+        
+        
+    }
+    #img-math{
+        position:absolute;
+        top: 25%;
+        left: 9.7%
+    }
+    .a-header{font-family: Marker Felt, fantasy;
+        font-weight: bolder;
+        text-align: center;
+       color: darkcyan;
+        font-weight: bold;
+    } .a-header-select{font-family: Marker Felt, fantasy;
+        font-weight: bolder;
+        text-align: center;
+       color: darkmagenta;
+        font-weight: bold;
+    } 
+    .a-header:hover{
+        color: darkmagenta;
+        
+    }
+    .td-header{border-right:1px darkcyan solid; 
+    width:25%;
+        height: 12mm;}
+    .copyright{
+        margin-top: 5%;
+          font-family: fantasy;
+          font-size:20px;
+        border: 1px wight solid;
+        background-color:aliceblue;width: 100%; height: auto;
+       text-align: center;
+      
+        vertical-align: middle;
+    }
+    h4{color: silver}
+    h4:hover{color: black}
+.send{
+        width: 15%;
+        font-size: 25px;
+        background-color:cadetblue; 
+       border-bottom:2px gray solid;
+       border-right:2px gray solid;
+       border-left:2px wight solid;
+       border-top:2px wight solid;
+    border-radius: 15px;
+    }    
+    .section{
+        margin-top: 05%;
+        font-family: Marker Felt, fantasy;
+        background-color:aliceblue;
+          opacity: 0.9;
+        border: 2px white solid;}
+    
+    
+    
+    
+    .center{margin:1cm }
+    .ok
+{
+	font-family: arial;
+	font-size: 1cm;
+	color: rgb(63,83,220);
+}
+.ae
+{
+	font-size: 1cm;
+}
+    
+    .a
+{font-family: Marker Felt, fantasy;
+	
+	width: 70px;
+	border-radius: 30%;
+	height:12%;
+	font-size:60px;
+	text-align:center;
+   
+}
+h1{font-family: Marker Felt, fantasy;
+        font-size: 50px;
+        color: #27A8C7; 
+        text-align: center;
+    }
+    
+        
+       
+        
+    </style>
+
+</head>
+
+    <body class="body">
+  <header class="header"><table class="a-header" width="100%">
+      <td class="td-header" > <a href="index.html"  class="a-header" style="text-decoration: none">Acceille</a></td>
+      <td class="td-header"> <a href="Cours.html"  class="a-header" style="text-decoration: none">Cours</a></td>
+      <td class="td-header"> <a href="Exercices.html" class="a-header-select" style="text-decoration: none">Exercices</a></td>
+      <td> <a href="Contacts.html"  class="a-header" style="text-decoration: none">Contact-us</a></td>
+      </table>
+      <img src="images/MathKids.png" width="100%"  >
+      <a href="index.html">  <img src="images/logo-math.png" width="40%" id="img-math"></a>
+        
+        </header><h1>*CE2*</h1>
+        
+        
+  <section class="section">      
+<span class="ok"><b><i>Exercice 1:</i></b></span>
+<span class="ae"><b>Complétez par > , &lt; ou = :</b></span>
+<center class="center">
+<table><tr>
+    <td><b class="a">5 </b></td><td><input id="ques1" class="a" type="text" name="<"> <td><b class="a">7 </b><input type="button" value="verifier" onclick="rep1()"></td></tr>
+   <tr>
+       <td><b class="a">9</b> </td><td><input class="a" id="ques2" type="text" name=">"></td><td><b class="a"> 3 </b><input type="button" value="verifier" onclick="rep2()"></td></tr>
+<tr>
+    <td><b class="a">6</b> </td><td><input class="a" id="ques3" type="text" name="="></td><td><b class="a"> 6 </b><input type="button" value="verifier" onclick="rep3()"></td></tr>
+<tr>
+    <td><b class="a">8 </b></td><td><input class="a" id="ques4" type="text" name=">"></td> <td><b class="a">4 </b><input type="button" value="verifier" onclick="rep4()"></td></tr></table>
+      </center></section>
+        
+        
+        
+   <section class="section">     
+<span class="ok"><b><i>Exercice 2:</i></b></span>
+<span class="ae"><b>Complétez par (+) ou (-) :</b> </span>
+<center class="center">
+<table><tr>
+    <td><b class="a">5 </b></td><td><input class="a" id="ques5" type="text" name="+"> </td><td><b class="a">1=6</b><input type="button" value="verifier" onclick="rep5()"></td></tr>
+<tr>
+    <td><b class="a">7</b></td><td> <input class="a" id="ques6" type="text" name="-"> </td><td><b class="a"> 1=6</b><input type="button" value="verifier" onclick="rep6()"></td></tr>
+<tr>
+    <td><b class="a">3</b></td><td> <input class="a" id="ques7" type="text" name="+"> </td><td><b class="a"> 4=7</b><input type="button" value="verifier" onclick="rep7()"></td></tr>
+<tr>
+    <td><b class="a">8 </b></td><td><input class="a" id="ques8" type="text" name="-"> </td><td><b class="a"> 3=5</b><input type="button" value="verifier" onclick="rep8()"></td></tr></table></center>
+       </section>
+        
+        
+  <section class="section">      
+<span class="ok"><b><i>Exercice 3:</i></b></span>
+<span class="ae"><b>Complétez chaque opération par le chiffre qui convient:</b></span>
+<center class="center">
+<table><tr>
+    <td> <input class="a" id="ques9" type="text" name="8"></td><td><b class="a"> +1=9</b></td><td><input type="button" value="verifier" onclick="rep9()"></td></tr>
+<tr>
+    <td><b class="a">5- </b></td><td><input class="a" id="ques10" type="text" name="2"><b class="a">=3</b></td><td><input type="button" value="verifier" onclick="rep10()"></td></tr>
+<tr>
+    <td><b class="a">2+</b></td><td> <input class="a" id="ques11" type="text" name="4"><b class="a">=6</b></td><td><input type="button" value="verifier" onclick="rep11()"></td></tr>
+<tr>
+    <td><input class="a" id="ques12" type="text" name="9"></td><td><b class="a"> -2=7</b></td><td><input type="button" value="verifier" onclick="rep12()"></td></tr></table></center>
+    </section>
+        
+    <section class="section" style="padding: 10px"><center>
+    <button class="send" onclick="window.location.href='Exercices.html'">Back</button></center></section>
+    
+    <footer class="copyright"><h3>NOUS CONTACTER</h3>
+       <h5>Notre service Client est à votre disposition du lundi au jeudi de 9h à 18h et le vendredi de 9h à 17h. </h5>
+       <h4>+212 612345678 | math@learning.com</h4><hr width="80%">
+       <h6>&copy;Copyright 2019 | Math-Learning. Proudly created by</h6> <font color="darkcyan"> RIHAB ELADNANI </font>| <font color="darkcyan">59006</font></footer>
+    
+    <script>
+function rep1() {
+var a=document.getElementById('ques1').value;
+var z=document.getElementById('ques1').name;
+if (a==z) {alert("votre reponse est juste")} else {alert("Votre reponse est fausse essayer encore")}
+}
+function rep2() {
+var e=document.getElementById('ques2').value;
+var r=document.getElementById('ques2').name;
+if (e==r) {alert("votre reponse est juste")} else {alert("Votre reponse est fausse essayer encore")}
+}
+function rep3() {
+var t=document.getElementById('ques3').value;
+var y=document.getElementById('ques3').name;
+if (t==y) {alert("votre reponse est juste")} else {alert("Votre reponse est fausse essayer encore")}
+}
+function rep4() {
+var u=document.getElementById('ques4').value;
+var i=document.getElementById('ques4').name;
+if (u==i) {alert("votre reponse est juste")} else {alert("Votre reponse est fausse essayer encore")}
+}
+function rep5() {
+var o=document.getElementById('ques5').value;
+var p=document.getElementById('ques5').name;
+if (o==p) {alert("votre reponse est juste")} else {alert("Votre reponse est fausse essayer encore")}
+}
+function rep6() {
+var q=document.getElementById('ques6').value;
+var s=document.getElementById('ques6').name;
+if (q==s) {alert("votre reponse est juste")} else {alert("Votre reponse est fausse essayer encore")}
+}
+function rep7() {
+var d=document.getElementById('ques7').value;
+var f=document.getElementById('ques7').name;
+if (d==f) {alert("votre reponse est juste")} else {alert("Votre reponse est fausse essayer encore")}
+}
+function rep8() {
+var g=document.getElementById('ques8').value;
+var h=document.getElementById('ques8').name;
+if (g==h)  {alert("votre reponse est juste")} else {alert("Votre reponse est fausse essayer encore")}
+}
+function rep9() {
+var j=document.getElementById('ques9').value;
+var k=document.getElementById('ques9').name;
+if (j==k) {alert("votre reponse est juste")} else {alert("Votre reponse est fausse essayer encore")}
+}
+function rep10() {
+var l=document.getElementById('ques10').value;
+var m=document.getElementById('ques10').name;
+if (l==m)  {alert("votre reponse est juste")} else {alert("Votre reponse est fausse essayer encore")}
+}
+function rep11() {
+var w=document.getElementById('ques11').value;
+var x=document.getElementById('ques11').name;
+if (w==x)  {alert("votre reponse est juste")} else {alert("Votre reponse est fausse essayer encore")}
+}
+function rep12() {
+var c=document.getElementById('ques12').value;
+var v=document.getElementById('ques12').name;
+if (c==v)  {alert("votre reponse est juste")} else {alert("Votre reponse est fausse essayer encore")}
+}
+        </script></body></html>
